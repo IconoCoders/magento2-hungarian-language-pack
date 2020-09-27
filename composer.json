@@ -1,0 +1,25 @@
+{
+  "name": "iconocoders/magento2-hungarian-language-pack",
+  "description": "Hungarian language package for Magento 2",
+  "homepage": "https://icoders.co",
+  "require": {
+    "mageplaza/module-core": "^1.3.13"
+  },
+  "type": "magento2-language",
+  "minimum-stability": "dev-master",
+  "prefer-stable": true,
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Iconocoders",
+      "email": "support@icoders.co"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
