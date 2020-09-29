@@ -2554,7 +2554,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "The attribute couldn't be validated due to an error. Verify your information and try again. If the error persists, please try again later.","Az attribútumot nem sikerült érvényesíteni hiba miatt. Ellenőrizze az adatokat és próbálja újra. Ha a hiba továbbra is fennáll, próbálkozzon később.",module,Magento_Catalog
 "Tier prices data should be array, but actually other type is received","A mennyiségi kedevezményes árat tömbben kell megadni, de más típusú adatot kap",module,Magento_Catalog
 "Price indexer ""%1"" must implement %2 or %3","Az ""%1"" ár indexelőnek meg kell adni %2 vagy %3-at",module,Magento_Catalog
-"You added product %1 to the <a href=""%2"">comparison list</a>.","A %1 terméket hozzáadta a <a href=""%2"">comparison list</a>-hoz.",module,Magento_Catalog
+"You added product %1 to the <a href=""%2"">comparison list</a>.","A %1 terméket hozzáadta az <a href=""%2"">összehasonlítás</a>-hoz.",module,Magento_Catalog
 "Maximum %1 characters","Maximum %1 karakter",module,Magento_Catalog
 "remaining","fennmaradó",module,Magento_Catalog
 "too many","túl sok",module,Magento_Catalog
@@ -3406,7 +3406,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Maximum Display Recently Added Item(s)","Maximálisan megjelenítendő nemrégiben hozzáadott elemek száma",module,Magento_Checkout
 "of","-ból",module,Magento_Checkout
 "Something went wrong while saving the page. Please refresh the page and try again.","Something went wrong while saving the page. Please refresh the page and try again.",module,Magento_Checkout
-"You added %1 to your <a href=""%2"">shopping cart</a>.","You added %1 to your <a href=""%2"">shopping cart</a>.",module,Magento_Checkout
+"You added %1 to your <a href=""%2"">shopping cart</a>.","%1 termék a kosárba <a href=""%2"">került</a>.",module,Magento_Checkout
 "Please select at least one product to add to cart","Please select at least one product to add to cart",module,Magento_Checkout
 "The quote item isn't found. Verify the item and try again.","The quote item isn't found. Verify the item and try again.",module,Magento_Checkout
 "The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.",module,Magento_Checkout
@@ -4721,7 +4721,7 @@ new products will be created. Use this step to customize images and price for yo
 "Sign Out","Kijelentkezés",module,Magento_Customer
 "Sign In","Bejelentkezés",module,Magento_Customer
 "You are subscribed to our newsletter.","You are subscribed to our newsletter.",module,Magento_Customer
-"You aren't subscribed to our newsletter.","You aren't subscribed to our newsletter.",module,Magento_Customer
+"You aren't subscribed to our newsletter.","Nincs feliratkozva a hírlevelünkre",module,Magento_Customer
 "You have not set a default shipping address.","Nem állított be alapértelmezett szállítási címet.",module,Magento_Customer
 "You have not set a default billing address.","Nem állított be alapértelmezett számlázási címet.",module,Magento_Customer
 "Address Book","Címjegyzék",module,Magento_Customer
@@ -8439,6 +8439,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "We received your order!","Rendelését rögzítettük!",module,Magento_Multishipping
 "We are unable to process your request. Please, try again later.","We are unable to process your request. Please, try again later.",module,Magento_Multishipping
 "Ship to:","Ship to:",module,Magento_Multishipping
+"Ship to","Szállítás ide",module,Magento_Multishipping
 "Error:","Hiba:",module,Magento_Multishipping
 "The maximum quantity can't be more than %1 when shipping to multiple addresses. Change the quantity and try again.","The maximum quantity can't be more than %1 when shipping to multiple addresses. Change the quantity and try again.",module,Magento_Multishipping
 "Verify the shipping address information and continue.","Verify the shipping address information and continue.",module,Magento_Multishipping
@@ -9260,7 +9261,7 @@ If field is empty default value localhost will be saved.",module,Magento_PageCac
 "The gateway response format was incorrect. Verify the format and try again.","The gateway response format was incorrect. Verify the format and try again.",module,Magento_Payment
 "The validator for the ""%1"" field doesn't exist.","The validator for the ""%1"" field doesn't exist.",module,Magento_Payment
 "Unable to place order. Please try again later.","Nem sikerült a megrendelés. Kérjük próbálkozzon később.",module,Magento_Payment
-"Billing Agreements","Billing Agreements",module,Magento_Paypal
+"Billing Agreements","Fizetési megállapodások",module,Magento_Paypal
 "ID","Azonosító",module,Magento_Paypal
 "Email","E-mail",module,Magento_Paypal
 "First Name","Keresztnév",module,Magento_Paypal
@@ -9642,10 +9643,10 @@ If field is empty default value localhost will be saved.",module,Magento_PageCac
 "Payment Method","Fizetési mód",module,Magento_Paypal
 "View","Megnéz",module,Magento_Paypal
 "There are no billing agreements yet.","There are no billing agreements yet.",module,Magento_Paypal
-"New Billing Agreement","New Billing Agreement",module,Magento_Paypal
-"You will be redirected to the payment system website.","You will be redirected to the payment system website.",module,Magento_Paypal
+"New Billing Agreement","Új fizetési megállapodás",module,Magento_Paypal
+"You will be redirected to the payment system website.","Át lesz irányítva a fizetési oldalra.",module,Magento_Paypal
 "-- Please Select --","-- Kérem válasszon --",module,Magento_Paypal
-"Create...","Create...",module,Magento_Paypal
+"Create...","Létrehozás",module,Magento_Paypal
 "Your credit card will be charged for","Your credit card will be charged for",module,Magento_Paypal
 "Your billing agreement # is: ","Your billing agreement # is: ",module,Magento_Paypal
 "Shipping Method","Szállítási mód",module,Magento_Paypal
@@ -10940,7 +10941,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "We can't add the item to the Requisition List right now: %1.","We can't add the item to the Requisition List right now: %1.",module,Magento_RequisitionList
 "We can't specify a requisition list.","We can't specify a requisition list.",module,Magento_RequisitionList
 "We can't specify a product.","We can't specify a product.",module,Magento_RequisitionList
-"You added %1 item(s) to your shopping cart.","You added %1 item(s) to your shopping cart.",module,Magento_RequisitionList
+"You added %1 item(s) to your shopping cart.","%1 termék a kosárba került.",module,Magento_RequisitionList
 "Something went wrong.","Valami elromlott.",module,Magento_RequisitionList
 "We can't configure the product right now.","We can't configure the product right now.",module,Magento_RequisitionList
 "%1 item(s) were copied to %2","%1 item(s) were copied to %2",module,Magento_RequisitionList
@@ -11132,13 +11133,13 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "You have submitted no reviews.","Ön még nem adott le véleményt.",module,Magento_Review
 "Back","Vissza",module,Magento_Review
 "My Recent Reviews","Friss véleményeim",module,Magento_Review
-"View All","View All",module,Magento_Review
+"View All","Mutasd mindet",module,Magento_Review
 "Average Customer Rating:","Average Customer Rating:",module,Magento_Review
 "Your Review","Your Review",module,Magento_Review
 "Submitted on %1","Submitted on %1",module,Magento_Review
 "Back to My Reviews","Vissza a véleményeimhez",module,Magento_Review
 "Ratings Review Summary","Ratings Review Summary",module,Magento_Review
-"Be the first to review this product","Be the first to review this product",module,Magento_Review
+"Be the first to review this product","Írja meg véleményét a termékről",module,Magento_Review
 "Write Your Own Review","Write Your Own Review",module,Magento_Review
 "* Required Fields","* kitöltése kötelező",module,Magento_Review
 "You're reviewing:","You're reviewing:",module,Magento_Review
@@ -12419,9 +12420,9 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Shipment #%1","Shipment #%1",module,Magento_Sales
 "Qty Shipped","Szállított mennyiség",module,Magento_Sales
 "Recent Orders","Az előző megrendelések",module,Magento_Sales
-"View All","View All",module,Magento_Sales
+"View All","Mutasd mindet",module,Magento_Sales
 "Gift Message for This Order","Gift Message for This Order",module,Magento_Sales
-"Recently Ordered","Recently Ordered",module,Magento_Sales
+"Recently Ordered","Friss rendelések",module,Magento_Sales
 "Add to Cart","Kosárba",module,Magento_Sales
 "Search","Keresés",module,Magento_Sales
 "Credit memo for your %store_name order","Jóváírás a %store_name megrendeléshez",module,Magento_Sales
@@ -15563,12 +15564,12 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Wrong request.","Hibás kérés.",module,Magento_Vault
 "Deletion failure. Please try again.","Deletion failure. Please try again.",module,Magento_Vault
 "Stored Payment Method was successfully removed","Stored Payment Method was successfully removed",module,Magento_Vault
-"Stored Payment Methods","Stored Payment Methods",module,Magento_Vault
+"Stored Payment Methods","Mentett fizetési módok",module,Magento_Vault
 "No available payment tokens for specified order payment.","No available payment tokens for specified order payment.",module,Magento_Vault
 "Card Number","Kártyaszám",module,Magento_Vault
 "Expiration Date","Lejárat dátuma",module,Magento_Vault
 "Type","Típus",module,Magento_Vault
-"You have no stored payment methods.","You have no stored payment methods.",module,Magento_Vault
+"You have no stored payment methods.","Nincs mentett fizetési mód.",module,Magento_Vault
 "ending","befejező",module,Magento_Vault
 "Actions","Műveletek",module,Magento_Vault
 "Delete","Törlés",module,Magento_Vault
