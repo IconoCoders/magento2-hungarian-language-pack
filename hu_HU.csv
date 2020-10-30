@@ -5087,6 +5087,7 @@ new products will be created. Use this step to customize images and price for yo
 "Gender","Nem",module,Magento_Customer
 "Name","Név",module,Magento_Customer
 "Tax/VAT number","Adószám",module,Magento_Customer
+"Tax/VAT Number","Adószám",module,Magento_Customer
 "Phone Number","Telefonszám",module,Magento_Customer
 "Welcome to %store_name","Üdvözlet a %store_name webáruházban",module,Magento_Customer
 "%name,","%név",module,Magento_Customer
