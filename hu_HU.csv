@@ -139,7 +139,7 @@
 "You cannot add a product.","Nem lehet hozzáadni terméket.",module,Magento_AdvancedCheckout
 "Order by SKU","Rendelés cikkszám szerint",module,Magento_AdvancedCheckout
 "The SKU was not found in the catalog.","A cikkszám nem található a katalógusban.",module,Magento_AdvancedCheckout
-"Availability: Out of stock.","Elérhetőség: Nincs raktáron.",module,Magento_AdvancedCheckout
+"Availability: Out of stock.","Elérhetőség: Nem elérhető.",module,Magento_AdvancedCheckout
 "We don't have as many of these as you want.","Az adott termékből nem áll rendelkezésre a kívánt mennyiség.",module,Magento_AdvancedCheckout
 "You can't add this many to your cart.","A megadott mennyiséget nem lehet a kosárba helyezni.",module,Magento_AdvancedCheckout
 "You need to choose options for your item.","Meg kell adnia a termék jellemzőit.",module,Magento_AdvancedCheckout
@@ -186,7 +186,7 @@
 "Your csv file must include ""sku"" and ""qty"" columns.","A csv fájlnak ""sku"" és ""qty"" oszlopokat is tartalmaznia kell.",module,Magento_AdvancedCheckout
 "Reset","Alaphelyzet",module,Magento_AdvancedCheckout
 "SKU: ","Cikkszám: ",module,Magento_AdvancedCheckout
-"Only <span id=""%1_max_allowed"">%2</span> in stock","Csak <span id=""%1_max_allowed"">%2</span> darab van raktáron",module,Magento_AdvancedCheckout
+"Only <span id=""%1_max_allowed"">%2</span> in stock","Csak <span id=""%1_max_allowed"">%2</span> darab elérhető",module,Magento_AdvancedCheckout
 "Item","Elem",module,Magento_AdvancedCheckout
 "See price before order confirmation.","Az ár megtekintése a megrendelés megerősítése előtt.",module,Magento_AdvancedCheckout
 "What's this?","Mi ez?",module,Magento_AdvancedCheckout
@@ -1623,8 +1623,8 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "* Required Fields","* kitöltése kötelező",module,Magento_Bundle
 "Your Customization","Az Ön testreszabása",module,Magento_Bundle
 "Availability","Elérhetőség",module,Magento_Bundle
-"In stock","Raktáron",module,Magento_Bundle
-"Out of stock","Nincs raktáron",module,Magento_Bundle
+"In stock","Elérhető",module,Magento_Bundle
+"Out of stock","Nem elérhető",module,Magento_Bundle
 "Summary","Összefoglaló",module,Magento_Bundle
 "%1 x %2","%1 x %2",module,Magento_Bundle
 "Availability:","Elérhetőség:",module,Magento_Bundle
@@ -2234,7 +2234,7 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Product online status","Termék online állapot",module,Magento_Catalog
 "Manage Stock","Készlet kezelése",module,Magento_Catalog
 "Qty","Mennyiség",module,Magento_Catalog
-"Out-of-Stock Threshold","Nincs raktáron küszöbérték",module,Magento_Catalog
+"Out-of-Stock Threshold","Nem elérhető küszöbérték",module,Magento_Catalog
 "Minimum Qty Allowed in Shopping Cart","Megengedett minimum mennyiség a kosárban",module,Magento_Catalog
 "Maximum Qty Allowed in Shopping Cart","Megengedett maximum mennyiség a kosárban",module,Magento_Catalog
 "Qty Uses Decimals","Tizedes használata",module,Magento_Catalog
@@ -2243,8 +2243,8 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Enable Qty Increments","Mennyiség növekmények engedélyezése",module,Magento_Catalog
 "Qty Increments","Mennyiség növekmény",module,Magento_Catalog
 "Stock Availability","Raktárkészlet",module,Magento_Catalog
-"In Stock","Raktáron",module,Magento_Catalog
-"Out of Stock","Nincs raktáron",module,Magento_Catalog
+"In Stock","Elérhető",module,Magento_Catalog
+"Out of Stock","Nem elérhető",module,Magento_Catalog
 "Add Product To Websites","Termék hozzáadása a Weboldalakhoz",module,Magento_Catalog
 "Remove Product From Websites","Termék eltávolítása a Weboldalakról",module,Magento_Catalog
 "To hide an item in catalog or search results, set the status to ""Disabled"".","Egy tétel elrejtéséhez a katalógusban vagy a keresésben, állítsa az állapotot ""Letiltva""-ra.",module,Magento_Catalog
@@ -2292,8 +2292,8 @@ and the product descriptor can be up to 18, 14, or 9 characters respectively (wi
 "Print This Page","Oldal nyomtatása",module,Magento_Catalog
 "Remove Product","Termék eltávolítása",module,Magento_Catalog
 "Add to Cart","Kosárba",module,Magento_Catalog
-"In stock","Raktáron",module,Magento_Catalog
-"Out of stock","Nincs raktáron",module,Magento_Catalog
+"In stock","Elérhető",module,Magento_Catalog
+"Out of stock","Nem elérhető",module,Magento_Catalog
 "Add to Wish List","Hozzáadás a kívánságlistához",module,Magento_Catalog
 "You have no items to compare.","Nincs összehasonlítható termék.",module,Magento_Catalog
 "Remove This Item","Termék eltávolítása",module,Magento_Catalog
@@ -2764,15 +2764,15 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "Could not rebuild index for empty products array","Üres termék tömbnek nem lehet újjáépíteni az indexét",module,Magento_CatalogInventory
 "The stock item for Product is not valid.","A raktár elem a termékhez érvénytelen.",module,Magento_CatalogInventory
 "This product is out of stock.","Ez a termék nincs készleten.",module,Magento_CatalogInventory
-"Some of the products are out of stock.","Néhány termék nincs raktáron.",module,Magento_CatalogInventory
+"Some of the products are out of stock.","Néhány termék nem elérhető.",module,Magento_CatalogInventory
 "The stock item for Product in option is not valid.","A raktár elem a választott termékhez érvénytelen.",module,Magento_CatalogInventory
 "Undefined product type","Meghatározatlan terméktípus",module,Magento_CatalogInventory
 "%1 is not a correct comparison method.","%1 nem megfelelő összehasonlító módszer.",module,Magento_CatalogInventory
 "No Backorders","Nincs előrendelés",module,Magento_CatalogInventory
 "Allow Qty Below 0","0 alatti készlet engedélyezése",module,Magento_CatalogInventory
 "Allow Qty Below 0 and Notify Customer","0 alatti készlet engedélyezése és a vásárló figyelmeztetése",module,Magento_CatalogInventory
-"In Stock","Raktáron",module,Magento_CatalogInventory
-"Out of Stock","Nincs raktáron",module,Magento_CatalogInventory
+"In Stock","Elérhető",module,Magento_CatalogInventory
+"Out of Stock","Nem elérhető",module,Magento_CatalogInventory
 "Unable to save Stock Item","Nem lehet menteni a raktár elemet",module,Magento_CatalogInventory
 "Stock Item with id ""%1"" does not exist.","A ""%1"" azonosítójú raktár elem nem létezik.",module,Magento_CatalogInventory
 "Unable to remove Stock Item with id ""%1""","A ""%1"" azonosítójú raktár elem nem távolítható el",module,Magento_CatalogInventory
@@ -2784,14 +2784,14 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "Invalid stock id: %1. Only default stock with id %2 allowed","Érvénytelen raktár azonosító: %1. Csak az alapértelmezett alapértelmezett %2 raktár megengedett",module,Magento_CatalogInventory
 "Invalid stock item id: %1. Should be null or numeric value greater than 0","Érvénytelen raktár elem azonosító: %1. Vagy nullának, vagy nullánál nagyobb szám szükséges",module,Magento_CatalogInventory
 "Invalid stock item id: %1. Assigned stock item id is %2","Érvénytelen raktár elem azonosító: %1. A hozzárendelt raktár elem azonosító %2",module,Magento_CatalogInventory
-"Not all of your products are available in the requested quantity.","Nem minden termék van raktáron a kért mennyiségben.",module,Magento_CatalogInventory
+"Not all of your products are available in the requested quantity.","Nem minden termék érhető el a kért mennyiségben.",module,Magento_CatalogInventory
 "Product with SKU ""%1"" does not exist","A ""%1"" cikkszámú termék nem létezik",module,Magento_CatalogInventory
 "The fewest you may purchase is %1.","A legkisebb rendelhető mennyiség %1.",module,Magento_CatalogInventory
 "Please correct the quantity for some products.","Kérem javítsa ki valamelyik termék mennyiségét.",module,Magento_CatalogInventory
 "The most you may purchase is %1.","A legnagyobb rendelhető mennyiség %1.",module,Magento_CatalogInventory
-"We don't have as many ""%1"" as you requested.","Nincs annyi ""%1"" raktáron, mint amennyit kért.",module,Magento_CatalogInventory
-"We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Nincs annyi ""%1"" raktáron, mint amennyit kért, de megrendeljük a maradék %2 darabot.",module,Magento_CatalogInventory
-"We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Nincs ""%1"" a kért mennyiségben raktáron, így megrendeljük a maradék %2 darabot.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested.","Nincs annyi ""%1"" elérhető, mint amennyit kért.",module,Magento_CatalogInventory
+"We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Nincs annyi ""%1"" elérhető, mint amennyit kért, de megrendeljük a maradék %2 darabot.",module,Magento_CatalogInventory
+"We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Nincs ""%1"" a kért mennyiségben elérhető, így megrendeljük a maradék %2 darabot.",module,Magento_CatalogInventory
 "You can buy %1 only in quantities of %2 at a time.","A %1 termékből csak %2 darabot vásárolhat egyszerre.",module,Magento_CatalogInventory
 "You can buy this product only in quantities of %1 at a time.","Ebből a termékből egyszerre csak %1 darabot vásárolhat.",module,Magento_CatalogInventory
 "Decimal qty increments is not allowed.","Decimális mennyiség növekmény nem engedélyezett.",module,Magento_CatalogInventory
@@ -2807,7 +2807,7 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "Inventory","Készlet",module,Magento_CatalogInventory
 "Stock Options","Készlet beállítások",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","Készlet csökkentése rendeléskor",module,Magento_CatalogInventory
-"Set Items' Status to be In Stock When Order is Cancelled","Elem állapot beállítása Raktáron-ra ha a rendelést visszavonták",module,Magento_CatalogInventory
+"Set Items' Status to be In Stock When Order is Cancelled","Elem állapot beállítása Elérhető-re ha a rendelést visszavonták",module,Magento_CatalogInventory
 "Display Out of Stock Products","Raktárról lefogyott termékek megjelenítése",module,Magento_CatalogInventory
 "Products will still be shown by direct product URLs.","A termékek továbbra is láthatóak a Direkt URL-elken.",module,Magento_CatalogInventory
 "Only X left Threshold","Csak X maradt küszöbérték",module,Magento_CatalogInventory
@@ -2817,7 +2817,7 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "Manage Stock","Készlet kezelése",module,Magento_CatalogInventory
 "Backorders","Előrendelések",module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","Megengedett maximum mennyiség a kosárban",module,Magento_CatalogInventory
-"Out-of-Stock Threshold","Nincs raktáron küszöbérték",module,Magento_CatalogInventory
+"Out-of-Stock Threshold","Nem elérhető küszöbérték",module,Magento_CatalogInventory
 "Minimum Qty Allowed in Shopping Cart","Megengedett minimum mennyiség a kosárban",module,Magento_CatalogInventory
 "Notify for Quantity Below","Értesítés mennyiségnél",module,Magento_CatalogInventory
 "Automatically Return Credit Memo Item to Stock","Jóváírt tétel automatikusan visszakerül raktárba",module,Magento_CatalogInventory
@@ -3178,8 +3178,8 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "SKU","Cikkszám",module,Magento_CatalogWidget
 "Please choose a condition to add.","Válasszon feltételt.",module,Magento_CatalogWidget
 "Add to Cart","Kosárba",module,Magento_CatalogWidget
-"In stock","Raktáron",module,Magento_CatalogWidget
-"Out of stock","Nincs raktáron",module,Magento_CatalogWidget
+"In stock","Elérhető",module,Magento_CatalogWidget
+"Out of stock","Nem elérhető",module,Magento_CatalogWidget
 "Add to Wish List","Hozzáadás a kívánságlistához",module,Magento_CatalogWidget
 "Add to Compare","Összehasonlításhoz ad",module,Magento_CatalogWidget
 "Catalog Products List","Katalógus termékek listája",module,Magento_CatalogWidget
@@ -3217,7 +3217,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "A letter with further instructions will be sent to your email.","A további teendőket emailben küldjük el önnek.",module,Magento_Checkout
 "You added %1 to your shopping cart.","%1 a kosárba került.",module,Magento_Checkout
 "We can't add this item to your shopping cart right now.","Jelenleg ezt a terméket nem teheti a kosarába.",module,Magento_Checkout
-"Out of stock","Nincs raktáron",module,Magento_Checkout
+"Out of stock","Nem elérhető",module,Magento_Checkout
 "We can't find the quote item.","A tétel nem található.",module,Magento_Checkout
 "We cannot configure the product.","Nem tudjuk konfigurálni a terméket.",module,Magento_Checkout
 "You used coupon code ""%1"".","A felhasznált kupon: ""%1"".",module,Magento_Checkout
@@ -6118,8 +6118,8 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Select all","Összes kijelölése",module,Magento_Downloadable
 "Unselect all","Összes kijelölés megszüntetése",module,Magento_Downloadable
 "Availability","Elérhetőség",module,Magento_Downloadable
-"In stock","Raktáron",module,Magento_Downloadable
-"Out of stock","Nincs raktáron",module,Magento_Downloadable
+"In stock","Elérhető",module,Magento_Downloadable
+"Out of stock","Nem elérhető",module,Magento_Downloadable
 "Go to <a href=""%1"">My Downloadable Products</a>","Ugrás a <a href=""%1""> Letölthető termékeim</a>hez",module,Magento_Downloadable
 "Downloadable Products","Letölthető termékek",module,Magento_Downloadable
 "Order #","A rendelés száma",module,Magento_Downloadable
@@ -6695,7 +6695,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "All Websites [%1]","Minden honlap [%1]",module,Magento_GiftCard
 "%1 [%2]","%1 [%2]",module,Magento_GiftCard
 "Availability:","Elérhetőség:",module,Magento_GiftCard
-"Out of stock","Nincs raktáron",module,Magento_GiftCard
+"Out of stock","Nem elérhető",module,Magento_GiftCard
 "Choose an Amount...","Válasszon összeget...",module,Magento_GiftCard
 "Other Amount...","Egyéb összeg...",module,Magento_GiftCard
 "Amount in %1","Összeg %1 valutában",module,Magento_GiftCard
@@ -6716,7 +6716,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Minimum: %1","Minimum: %1",module,Magento_GiftCard
 "Maximum: %1","Maximum: %1",module,Magento_GiftCard
 "Availability","Elérhetőség",module,Magento_GiftCard
-"In stock","Raktáron",module,Magento_GiftCard
+"In stock","Elérhető",module,Magento_GiftCard
 "You've been sent a gift from %store_name","Ön küldött egy ajándékkártyát a %store_name webáruházból",module,Magento_GiftCard
 "%name,","%name,",module,Magento_GiftCard
 "%sender has sent you a gift card for use at <a href=""%store_url"">%store_name</a> and it is now ready to be used for purchases.","%sender küldött önnek egy ajándékkártyát, amit a <a href=""%store_url"">%store_name</a> webáruházban akár azonnal is levásárolhat.",module,Magento_GiftCard
@@ -7425,7 +7425,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Actions","Műveletek",module,Magento_GroupedProduct
 "Associated Products","Hozzárendelt termékek",module,Magento_GroupedProduct
 "Availability:","Elérhetőség:",module,Magento_GroupedProduct
-"Out of stock","Nincs raktáron",module,Magento_GroupedProduct
+"Out of stock","Nem elérhető",module,Magento_GroupedProduct
 "Product Name","Terméknév",module,Magento_GroupedProduct
 "Qty","Mennyiség",module,Magento_GroupedProduct
 "No options of this product are available.","Ehhez a termékhez nincs lehetőség.",module,Magento_GroupedProduct
@@ -7433,7 +7433,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Default Qty","Alapértelmezett mennyiség",module,Magento_GroupedProduct
 "Starting at","Starting at",module,Magento_GroupedProduct
 "Availability","Elérhetőség",module,Magento_GroupedProduct
-"In stock","Raktáron",module,Magento_GroupedProduct
+"In stock","Elérhető",module,Magento_GroupedProduct
 "Grouped product items","Csoportosított termék tételek",module,Magento_GroupedProduct
 "Grouped Product Image","Csoportosított termék kép",module,Magento_GroupedProduct
 "Select...","Válasszon...",module,Magento_GroupedProduct
@@ -8658,7 +8658,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "Associated Products","Hozzárendelt termékek",module,Magento_NegotiableQuote
 "Choose an Option...","Válasszon egy lehetőséget...",module,Magento_NegotiableQuote
 "Availability:","Elérhetőség:",module,Magento_NegotiableQuote
-"Out of stock","Nincs raktáron",module,Magento_NegotiableQuote
+"Out of stock","Nem elérhető",module,Magento_NegotiableQuote
 "Amount","Összeg",module,Magento_NegotiableQuote
 "Choose an Amount...","Válasszon összeget...",module,Magento_NegotiableQuote
 "Other Amount...","Egyéb összeg...",module,Magento_NegotiableQuote
@@ -10074,7 +10074,7 @@ offered and the currency offered by the merchant is USD.",module,Magento_Paypal
 "Error Email Sender","Hiba e-mail feladója",module,Magento_ProductAlert
 "Error Email Template","Hiba e-mail sablon",module,Magento_ProductAlert
 "Notify me when the price drops","Értesítsen amikor az ár csökken",module,Magento_ProductAlert
-"Notify me when this product is in stock","Értesítsen, ha a termék raktáron lesz",module,Magento_ProductAlert
+"Notify me when this product is in stock","Értesítsen, ha a termék elérhető lesz",module,Magento_ProductAlert
 "Sign up for price alert","Sign up for price alert",module,Magento_ProductAlert
 "Sign up to be notified when this product is back in stock.","Sign up to be notified when this product is back in stock.",module,Magento_ProductAlert
 "The alert subscription couldn't update at this time. Please try again later.","The alert subscription couldn't update at this time. Please try again later.",module,Magento_ProductAlert
@@ -10856,8 +10856,8 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "All Websites","Minden honlap",module,Magento_Reports
 "Recently Viewed","Nemrég megtekintve",module,Magento_Reports
 "Add to Cart","Kosárba",module,Magento_Reports
-"In stock","Raktáron",module,Magento_Reports
-"Out of stock","Nincs raktáron",module,Magento_Reports
+"In stock","Elérhető",module,Magento_Reports
+"Out of stock","Nem elérhető",module,Magento_Reports
 "Add to Wish List","Hozzáadás a kívánságlistához",module,Magento_Reports
 "Add to Compare","Összehasonlításhoz ad",module,Magento_Reports
 "Recently Compared","Legutoljára összehasonlítva",module,Magento_Reports
@@ -11028,7 +11028,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Items","Termékek",module,Magento_RequisitionList
 "Latest Activity","Latest Activity",module,Magento_RequisitionList
 "You must choose options for your item.","You must choose options for your item.",module,Magento_RequisitionList
-"We don't have as many ""%1"" as you requested.","Nincs annyi ""%1"" raktáron, mint amennyit kért.",module,Magento_RequisitionList
+"We don't have as many ""%1"" as you requested.","Nincs annyi ""%1"" elérhető darabszám, mint amennyit kért.",module,Magento_RequisitionList
 "Save Review","Vélemény mentése",module,Magento_Review
 "New Review","Új értékelés",module,Magento_Review
 "Review Details","Értékelés részletei",module,Magento_Review
@@ -12964,7 +12964,7 @@ Usage limit enforced for logged in customers only.,module,Magento_SalesRule
 "Use Config Settings","Konfigurációs beállítások használata",module,Magento_ScalableInventory
 "[GLOBAL]","[GLOBAL]",module,Magento_ScalableInventory
 "Qty","Mennyiség",module,Magento_ScalableInventory
-"Out-of-Stock Threshold","Nincs raktáron küszöbérték",module,Magento_ScalableInventory
+"Out-of-Stock Threshold","Nem elérhető küszöbérték",module,Magento_ScalableInventory
 "Minimum Qty Allowed in Shopping Cart","Megengedett minimum mennyiség a kosárban",module,Magento_ScalableInventory
 "Maximum Qty Allowed in Shopping Cart","Megengedett maximum mennyiség a kosárban",module,Magento_ScalableInventory
 "Qty Uses Decimals","Tizedes használata",module,Magento_ScalableInventory
@@ -16104,8 +16104,8 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Qty","Mennyiség",module,Magento_Wishlist
 "Add to Cart","Kosárba",module,Magento_Wishlist
 "Availability","Elérhetőség",module,Magento_Wishlist
-"In stock","Raktáron",module,Magento_Wishlist
-"Out of stock","Nincs raktáron",module,Magento_Wishlist
+"In stock","Elérhető",module,Magento_Wishlist
+"Out of stock","Nem elérhető",module,Magento_Wishlist
 "Edit","Szerkesztés",module,Magento_Wishlist
 "Remove Item","Elem eltávolítása",module,Magento_Wishlist
 "Remove item","Elem eltávolítása",module,Magento_Wishlist
